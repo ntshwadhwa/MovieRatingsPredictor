@@ -2,7 +2,7 @@
  The primary objective of the project is to develop a robust framework for predicting the audience and critics ratings of the upcoming   movies based on several attributes
  The successful prediction of ratings plays a vital role in movie industry because it involves huge investment
 
- [alt text](https://raw.githubusercontent.comntshwadhwa/MovieRatingsPredictor/master/img.jpg)
+ [alt text](https://raw.githubusercontent.com/ntshwadhwa/MovieRatingsPredictor/master/img.jpg)
  Data Collection
 The Data is collected from “Rotten Tomatoes” a review-aggregation website for film and television
 Data for Director and Actors likes has been collected from Facebook pages.
