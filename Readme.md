@@ -3,7 +3,9 @@
  The successful prediction of ratings plays a vital role in movie industry because it involves huge investment
 
 ![alt text](https://raw.githubusercontent.com/ntshwadhwa/MovieRatingsPredictor/master/img.jpg)
- Data Collection
+
+
+Data Collection
 The Data is collected from “Rotten Tomatoes” a review-aggregation website for film and television
 Data for Director and Actors likes has been collected from Facebook pages.
 Data has attributes:Movie Name, Audience Rating,Critics Rating,Actor_names, Actor_links, Synopsis,Release Date,Genre ,Studio, Directed By etc.
@@ -16,17 +18,20 @@ We modified the data in a layout and format that is capable to be read by csv re
  Refer to RT_data.zip for final prepared data set reference
 
 Methodology : SVM  
+
+![alt text](https://raw.githubusercontent.com/ntshwadhwa/MovieRatingsPredictor/master/img2.png)
+
 To obtain the desired prediction about ratings of the movie we will be using the Support Vector Machine model.
  SVM is a supervised machine learning algorithm which can be used for classification or regression problems. 
 It uses a technique called the kernel trick to transform your data and then based on these transformations it finds an optimal boundary between the possible outputs. 
 It does some extremely complex data transformations, then figures out how to separate your data based on the labels or outputs you've defined.
 
-
+![alt text](https://raw.githubusercontent.com/ntshwadhwa/MovieRatingsPredictor/master/img3.png)
 Training data: 70% of data set
 Test data: 30% of data set
 We have used K-cross folds validation with k=10
 
-
+![alt text](https://raw.githubusercontent.com/ntshwadhwa/MovieRatingsPredictor/master/img4.png)
 We have used SVM Linear (SVC) for the Linear Classification
 SVM Linear performs classification by finding the hyper plane that maximizes the distance margin between the two classes
 We have used SVM Regression(SVR) for the Regression.
