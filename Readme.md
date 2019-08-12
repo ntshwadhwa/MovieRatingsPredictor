@@ -12,19 +12,19 @@
 
 
 
-Data Collection
+<b> Data Collection </b>
 The Data is collected from “Rotten Tomatoes” a review-aggregation website for film and television
 Data for Director and Actors likes has been collected from Facebook pages.
 Data has attributes:Movie Name, Audience Rating,Critics Rating,Actor_names, Actor_links, Synopsis,Release Date,Genre ,Studio, Directed By etc.
 
- Data Preparation : Cleaning of Data 
+<b> Data Preparation : Cleaning of Data  </b>
 We have performed the data cleaning on the data set  to make sure there is no missing values and outliers.
 We have converted special characters like $ and % to numbers.
 We modified the data in a layout and format that is capable to be read by csv reader tool
  
  Refer to RT_data.zip for final prepared data set reference
 
-Methodology : SVM  
+<b> Methodology : SVM  </b>
 
 ![alt text](https://raw.githubusercontent.com/ntshwadhwa/MovieRatingsPredictor/master/img2.png)
 
@@ -51,7 +51,7 @@ SVM Linear performs classification by finding the hyper plane that maximizes the
 We have used SVM Regression(SVR) for the Regression.
 SVR is used for working with continuous values instead of Classification 
 
-Software Package
+<b> Software Package </b>
 
 1.) CSV : To read the data from the stock prices
 
