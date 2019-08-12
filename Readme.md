@@ -53,6 +53,9 @@ SVR is used for working with continuous values instead of Classification 
 Software Package
 
 1.) CSV : To read the data from the stock prices
+
 2.) Numpy : To perform calculations
+
 3.) Scikit-Learn : To build a predictive model
+
 4.) Pandas : To perform data manipulation and analysis
