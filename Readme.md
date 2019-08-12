@@ -1,3 +1,4 @@
+<b> Movie Ratings Predictor </b>
 
  The primary objective of the project is to develop a robust framework for predicting the audience and critics ratings of the upcoming   movies based on several attributes
  The successful prediction of ratings plays a vital role in movie industry because it involves huge investment
